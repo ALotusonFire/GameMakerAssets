@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_Fireball",
   "spriteId": {
-    "name": "Sprite12",
-    "path": "sprites/Sprite12/Sprite12.yy",
+    "name": "fireball",
+    "path": "sprites/fireball/fireball.yy",
   },
   "solid": false,
   "visible": true,
