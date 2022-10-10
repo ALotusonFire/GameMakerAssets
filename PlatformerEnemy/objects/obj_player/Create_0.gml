@@ -2,12 +2,17 @@
 // You can write your code in this editor
 
 
+grav = 1;
+spd = 4;
+hspd = 0;
+vspd = 0;
+jspd = 8;
 
 
 // Inherit the parent event
 event_inherited();
 
-my_spr_idle = spr_snowman_idle
-my_spr_walk = spr_snowman_run
-my_spr_jump = spr_snowman_jump
-my_spr_fall = spr_snowman_fall
+//my_spr_idle = spr_snowman_idle
+//my_spr_walk = spr_snowman_run
+//my_spr_jump = spr_snowman_jump
+//my_spr_fall = spr_snowman_fall

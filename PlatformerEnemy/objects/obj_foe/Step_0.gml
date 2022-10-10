@@ -16,7 +16,7 @@ if bumped_into_something{
 
 }
 
-y -= 1
+
 
 
 // Inherit the parent event
