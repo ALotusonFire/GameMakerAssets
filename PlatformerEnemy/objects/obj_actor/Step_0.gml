@@ -10,7 +10,7 @@ if L_hold{												// if pressing A..
 	}
     image_xscale = -1									//flip the sprite to face left
     if grounded{
-        sprite_index= my_spr_walk
+       // sprite_index= my_spr_walk
     }
 }else if R_hold{										//otherwise if D same deal in other direction...
         if (hspd < hspd_max){
@@ -20,13 +20,13 @@ if L_hold{												// if pressing A..
 		}
     image_xscale = 1									//flip the sprite to face right
     if grounded{										//only change to walking sprite if on the ground
-        sprite_index= my_spr_walk
+       // sprite_index= my_spr_walk
     }
 }else{		
 	//if not pressing either direction..
     if grounded{
 		hspd = lerp(hspd, 0, .05)						//..and on the ground.. slow me
-        sprite_index= my_spr_idle					//..show idle animation!
+        //sprite_index= my_spr_idle					//..show idle animation!
     }
 }
 
@@ -57,9 +57,9 @@ if grounded {							// if player is touching the ground or platform
 	}
 	
     if vspd > 0{						// use jump sprite for jump, fall sprite for fall!
-        sprite_index= my_spr_jump
+        //sprite_index= my_spr_jump
     }else{
-        sprite_index= my_spr_fall
+        //sprite_index= my_spr_fall
     }
 }
 

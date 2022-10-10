@@ -63,7 +63,7 @@ action_1_pressed = false
 
 if keyboard_check_pressed(vk_shift){
 	if powerType = "Fire"{
-		//instance_create_depth(x,y,0,obj_fireball)
+		instance_create_depth(x,y,0,obj_Fireball)
 	}
 	
 }
