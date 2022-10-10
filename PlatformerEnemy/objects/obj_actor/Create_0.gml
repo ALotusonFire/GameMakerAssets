@@ -1,12 +1,12 @@
 // Feel free to change these variables or add your own functionality.
 hspd_max = 4			// maximum left/right speed
-accel = .1				// left/right movement acceleration
+accel = 1				// left/right movement acceleration
 jump_max= 6				// strength of upward force
-grav_amt= .8			// strength of downward force
-jump_hold = .25 * room_speed	// time you can hold for a higher jump
+grav_amt= 1			// strength of downward force
+jump_hold = .2 * room_speed	// time you can hold for a higher jump
 num_jump = 1			// number of jumps before needing to touch ground
 jump_pressed_timer = 60	// number of frames to save the "jump" input, aka "input caching"
-coyote_time = 2			// number of frames before you fall when stepping off platform
+coyote_time = 3			// number of frames before you fall when stepping off platform
 
 //_____________________________________________________________________
 

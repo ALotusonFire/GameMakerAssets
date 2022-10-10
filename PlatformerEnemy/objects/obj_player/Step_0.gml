@@ -4,7 +4,7 @@
 if keyboard_check_pressed(ord("A")){
 	L_pressed = true
 	L_hold = true
-
+	
 }
 if keyboard_check_released(ord("A")){
 	L_released = true

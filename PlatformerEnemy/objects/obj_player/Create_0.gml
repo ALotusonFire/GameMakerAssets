@@ -2,11 +2,10 @@
 // You can write your code in this editor
 
 
-grav = 1;
-spd = 4;
+
 hspd = 0;
 vspd = 0;
-jspd = 8;
+
 
 
 // Inherit the parent event
