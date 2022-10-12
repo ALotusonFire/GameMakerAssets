@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_platform",
   "spriteId": {
-    "name": "Sprite14",
-    "path": "sprites/Sprite14/Sprite14.yy",
+    "name": "ground_block",
+    "path": "sprites/ground_block/ground_block.yy",
   },
   "solid": false,
   "visible": true,
