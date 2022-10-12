@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_collidable",
-  "spriteId": {
-    "name": "Sprite16",
-    "path": "sprites/Sprite16/Sprite16.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
