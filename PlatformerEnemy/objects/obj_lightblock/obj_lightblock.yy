@@ -12,8 +12,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_ground",
-    "path": "objects/obj_ground/obj_ground.yy",
+    "name": "obj_collidable",
+    "path": "objects/obj_collidable/obj_collidable.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
