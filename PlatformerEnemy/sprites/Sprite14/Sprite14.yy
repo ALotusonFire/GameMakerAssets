@@ -68,7 +68,7 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "PlatformerEnemy",
-    "path": "PlatformerEnemy.yyp",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
 }

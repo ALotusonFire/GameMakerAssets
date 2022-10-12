@@ -18,14 +18,14 @@ if L_hold{												// if pressing A..
 		} else {
 			hspd = hspd_max
 		}
-    image_xscale = 2									//flip the sprite to face right
+    image_xscale = 2								//flip the sprite to face right
     if grounded{										//only change to walking sprite if on the ground
        // sprite_index= my_spr_walk
     }
 }else{		
 	//if not pressing either direction..
     if grounded{
-		hspd = lerp(hspd, 0, .05)						//..and on the ground.. slow me
+		hspd = lerp(hspd, 0, 1)						//..and on the ground.. slow me
         //sprite_index= my_spr_idle					//..show idle animation!
     }
 }

@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_collectableLightning",
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite23",
+    "path": "sprites/Sprite23/Sprite23.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,

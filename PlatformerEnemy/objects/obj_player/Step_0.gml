@@ -49,21 +49,33 @@ action_1_pressed = false
 	
 	if collision_circle(x,y,30,obj_collectableFire,false,true){
 		powerType = "Fire"
+		instance_destroy(obj_collectableFire)
 	}
 	
 	if collision_circle(x,y,30,obj_collectableLightning,false,true){
 		powerType = "Lightning"
+		instance_destroy(obj_collectableLightning)
 	}
 	
 	if collision_circle(x,y,30,obj_collectableIce,false,true){
 		powerType = "Ice"
+		instance_destroy(obj_collectableIce)
 	}
-	//instance_destroy()
 
 
+if powerType = "Ice"{
+		jump_max= 8	
+	}
+	
+if powerType = "Lightning"{
+		grav_amt= 1	
+	}
+	
 if keyboard_check_pressed(vk_shift){
 	if powerType = "Fire"{
 		instance_create_depth(x,y,0,obj_Fireball)
+	
+		//instance_destroy(obj_Fireball)
 	}
 	
 }

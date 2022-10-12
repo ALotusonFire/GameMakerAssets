@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_collectableIce",
-  "spriteId": null,
+  "spriteId": {
+    "name": "Sprite22",
+    "path": "sprites/Sprite22/Sprite22.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
