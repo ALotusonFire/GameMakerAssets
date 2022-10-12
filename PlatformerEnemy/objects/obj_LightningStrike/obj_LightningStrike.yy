@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_LightningStrike",
   "spriteId": {
-    "name": "fireball",
-    "path": "sprites/fireball/fireball.yy",
+    "name": "Sprite25",
+    "path": "sprites/Sprite25/Sprite25.yy",
   },
   "solid": false,
   "visible": true,

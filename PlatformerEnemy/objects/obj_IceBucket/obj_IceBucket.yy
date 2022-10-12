@@ -3,8 +3,8 @@
   "resourceVersion": "1.0",
   "name": "obj_IceBucket",
   "spriteId": {
-    "name": "fireball",
-    "path": "sprites/fireball/fireball.yy",
+    "name": "Sprite24",
+    "path": "sprites/Sprite24/Sprite24.yy",
   },
   "solid": false,
   "visible": true,

@@ -49,6 +49,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":4,},
     {"id":{"name":"hidden_block","path":"sprites/hidden_block/hidden_block.yy",},"order":11,},
     {"id":{"name":"spr_firefly","path":"sprites/spr_firefly/spr_firefly.yy",},"order":12,},
+    {"id":{"name":"Sprite25","path":"sprites/Sprite25/Sprite25.yy",},"order":19,},
     {"id":{"name":"rm_game6","path":"rooms/rm_game6/rm_game6.yy",},"order":5,},
     {"id":{"name":"obj_room_switch","path":"objects/obj_room_switch/obj_room_switch.yy",},"order":15,},
     {"id":{"name":"Sprite14","path":"sprites/Sprite14/Sprite14.yy",},"order":15,},
@@ -58,6 +59,7 @@
     {"id":{"name":"Sprite16","path":"sprites/Sprite16/Sprite16.yy",},"order":17,},
     {"id":{"name":"obj_foe","path":"objects/obj_foe/obj_foe.yy",},"order":5,},
     {"id":{"name":"notes","path":"notes/notes/notes.yy",},"order":0,},
+    {"id":{"name":"Sprite24","path":"sprites/Sprite24/Sprite24.yy",},"order":18,},
     {"id":{"name":"compatibility_report_200918_1338183818","path":"notes/compatibility_report_200918_1338183818/compatibility_report_200918_1338183818.yy",},"order":1,},
   ],
   "Options": [
