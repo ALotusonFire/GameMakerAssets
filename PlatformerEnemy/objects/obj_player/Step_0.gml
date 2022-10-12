@@ -63,17 +63,27 @@ action_1_pressed = false
 	}
 
 
-if powerType = "Ice"{
+/*if powerType = "Ice"{
 		jump_max= 8	
 	}
 	
 if powerType = "Lightning"{
 		grav_amt= 1	
 	}
-	
+	*/
 if keyboard_check_pressed(vk_shift){
 	if powerType = "Fire"{
 		instance_create_depth(x,y,0,obj_Fireball)
+	
+		//instance_destroy(obj_Fireball)
+	}
+	if powerType = "Lightning"{
+		instance_create_depth(x,y,0,obj_IceBucket)
+	
+		//instance_destroy(obj_Fireball)
+	}
+	if powerType = "Ice"{
+		instance_create_depth(x,y,0,obj_LightningStrike)
 	
 		//instance_destroy(obj_Fireball)
 	}
