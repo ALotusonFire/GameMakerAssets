@@ -78,6 +78,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_game7","path":"rooms/rm_game7/rm_game7.yy",},},
     {"roomId":{"name":"rm_game5","path":"rooms/rm_game5/rm_game5.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_game10","path":"rooms/rm_game10/rm_game10.yy",},},
@@ -85,7 +86,6 @@
     {"roomId":{"name":"rm_game3","path":"rooms/rm_game3/rm_game3.yy",},},
     {"roomId":{"name":"rm_game4","path":"rooms/rm_game4/rm_game4.yy",},},
     {"roomId":{"name":"rm_game6","path":"rooms/rm_game6/rm_game6.yy",},},
-    {"roomId":{"name":"rm_game7","path":"rooms/rm_game7/rm_game7.yy",},},
     {"roomId":{"name":"rm_game8","path":"rooms/rm_game8/rm_game8.yy",},},
     {"roomId":{"name":"rm_game9","path":"rooms/rm_game9/rm_game9.yy",},},
     {"roomId":{"name":"rm_game11","path":"rooms/rm_game11/rm_game11.yy",},},
