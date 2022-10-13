@@ -76,6 +76,21 @@ if powerType = "Lightning"{
 		grav_amt= 1	
 	}
 	*/
+	
+if collision_circle(x,y+sprite_height,4,obj_foe,false,true) {
+		var enemy = instance_nearest(x,y,obj_foe)
+		instance_destroy(enemy)
+	}
+	
+if collision_circle(x,y+sprite_height,20,obi_collectable,false,true) {
+		var collect = instance_nearest(x,y,obi_collectable)
+		myR = collect.colorR
+		myG = collect.colorG
+		myB = collect.colorB
+		instance_destroy(collect)
+	}
+	
+	
 if keyboard_check_pressed(vk_shift){
 	if powerType = "Fire"{
 		instance_create_depth(x,y,0,obj_Fireball)

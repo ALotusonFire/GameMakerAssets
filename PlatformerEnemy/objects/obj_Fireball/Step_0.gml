@@ -6,9 +6,11 @@ x+=5
 
 if collision_circle(x,y,30,obj_foe,false,true){
 			instance_destroy()
-			instance_destroy(obj_foe)
+			var enemy = instance_nearest(x,y,obj_foe)
+		instance_destroy(enemy)
 	}
 if collision_circle(x,y,30,obj_lightblock,false,true){
 			instance_destroy()
-			instance_destroy(obj_lightblock)
+			var light = instance_nearest(x,y,obj_lightblock)
+		instance_destroy(light)
 	}

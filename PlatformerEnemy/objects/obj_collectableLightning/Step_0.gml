@@ -3,3 +3,7 @@
 
 
 powerType = "Lightning";
+
+colorR = 0
+colorG = 255
+colorB = 0
