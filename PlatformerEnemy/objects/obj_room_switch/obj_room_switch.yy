@@ -2,7 +2,10 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_room_switch",
-  "spriteId": null,
+  "spriteId": {
+    "name": "cave_entrance",
+    "path": "sprites/cave_entrance/cave_entrance.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
