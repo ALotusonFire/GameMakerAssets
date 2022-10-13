@@ -8,7 +8,7 @@ if L_hold{												// if pressing A..
 	} else { 
 		hspd = -hspd_max 
 	}
-    image_xscale = -2									//flip the sprite to face left
+    image_xscale = -1									//flip the sprite to face left
     if grounded{
        // sprite_index= my_spr_walk
     }
@@ -18,7 +18,7 @@ if L_hold{												// if pressing A..
 		} else {
 			hspd = hspd_max
 		}
-    image_xscale = 2								//flip the sprite to face right
+    image_xscale = 1								//flip the sprite to face right
     if grounded{										//only change to walking sprite if on the ground
        // sprite_index= my_spr_walk
     }

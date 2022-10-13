@@ -1,6 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if keyboard_check_pressed(ord("R")){
+	room_restart()
+	
+}
+
 if keyboard_check_pressed(ord("A")){
 	L_pressed = true
 	L_hold = true
@@ -29,7 +34,7 @@ if keyboard_check_released(vk_space){
 	action_1_hold = false
 }
 
-if collision_circle(x,y,20,obj_foe,false,true){
+if collision_circle(x,y,12,obj_foe,false,true){
 
 	room_restart()
 
@@ -92,3 +97,15 @@ if keyboard_check_pressed(vk_shift){
 	}
 	
 }
+
+if y > room_height+100 {
+	room_restart()
+
+}
+
+if L_hold {
+	image_xscale = -2
+}else{
+	image_xscale = 2
+}
+
