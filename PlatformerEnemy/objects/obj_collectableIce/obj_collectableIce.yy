@@ -24,7 +24,7 @@
   "physicsLinearDamping": 0.1,
   "physicsAngularDamping": 0.1,
   "physicsFriction": 0.2,
-  "physicsStartAwake": true,
+  "physicsStartAwake": false,
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
