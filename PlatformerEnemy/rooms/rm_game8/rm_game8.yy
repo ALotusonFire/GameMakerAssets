@@ -32,6 +32,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1E17FC0F","properties":[],"isDnd":false,"objectId":{"name":"obj_foe","path":"objects/obj_foe/obj_foe.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1344.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_682E0D81","properties":[],"isDnd":false,"objectId":{"name":"obj_foe","path":"objects/obj_foe/obj_foe.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1440.0,"y":192.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_29EBF6AD","properties":[],"isDnd":false,"objectId":{"name":"obj_foe","path":"objects/obj_foe/obj_foe.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":1536.0,"y":192.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6D6F20CE","properties":[],"isDnd":false,"objectId":{"name":"obj_foe","path":"objects/obj_foe/obj_foe.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":224.0,"y":96.0,},
       ],"visible":true,"depth":-200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"lightblock","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_33083DDA","spriteId":{"name":"spr_lightblock","path":"sprites/spr_lightblock/spr_lightblock.yy",},"headPosition":0.0,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"animationSpeed":1.0,"colour":4294967295,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":32.0,},
@@ -121,6 +122,7 @@
     {"name":"inst_69EF7E54","path":"rooms/rm_game8/rm_game8.yy",},
     {"name":"inst_8160BA6","path":"rooms/rm_game8/rm_game8.yy",},
     {"name":"inst_CC956FA","path":"rooms/rm_game8/rm_game8.yy",},
+    {"name":"inst_6D6F20CE","path":"rooms/rm_game8/rm_game8.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
