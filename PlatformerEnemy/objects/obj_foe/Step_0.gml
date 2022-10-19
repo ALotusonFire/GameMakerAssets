@@ -41,7 +41,10 @@ if collision_circle(x,y,30,obj_player,false,true){
 			room_restart()}
 	}
 	
-
+if collision_circle(x,y,30,obj_IceBucket,false,true){
+	hspd_max = 1
+}
+	
 // Inherit the parent event
 event_inherited();
 

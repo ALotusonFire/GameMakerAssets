@@ -60,6 +60,7 @@ action_1_pressed = false
 	if collision_circle(x,y,30,obj_collectableLightning,false,true){
 		powerType = "Lightning"
 		instance_destroy(obj_collectableLightning)
+		jump_max = 15
 	}
 	
 	if collision_circle(x,y,30,obj_collectableIce,false,true){
@@ -68,14 +69,9 @@ action_1_pressed = false
 	}
 
 
-/*if powerType = "Ice"{
-		jump_max= 8	
-	}
+
 	
-if powerType = "Lightning"{
-		grav_amt= 1	
-	}
-	*/
+
 	
 if collision_circle(x,y+sprite_height,4,obj_foe,false,true) {
 		var enemy = instance_nearest(x,y,obj_foe)
@@ -97,26 +93,31 @@ if keyboard_check_pressed(vk_shift){
 	
 		//instance_destroy(obj_Fireball)
 	}
-	if powerType = "Lightning"{
+	if powerType = "Ice"{
 		instance_create_depth(x,y,0,obj_IceBucket)
+		
 	
 		//instance_destroy(obj_Fireball)
 	}
-	if powerType = "Ice"{
+	if powerType = "Lightning"{
 		instance_create_depth(x,y,0,obj_LightningStrike)
-	
+			
 		//instance_destroy(obj_Fireball)
 	}
 	else
 	{
+		
 	}
 	
 }
+
+
 
 if y > room_height+100 {
 	room_restart()
 
 }
+
 
 if L_hold {
 	image_xscale = -2

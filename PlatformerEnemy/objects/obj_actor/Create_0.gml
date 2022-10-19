@@ -1,7 +1,7 @@
 // Feel free to change these variables or add your own functionality.
 hspd_max = 4			// maximum left/right speed
 accel = 1				// left/right movement acceleration
-jump_max= 10				// strength of upward force
+jump_max= 8				// strength of upward force
 grav_amt= 1			// strength of downward force
 jump_hold = .2 * room_speed	// time you can hold for a higher jump
 num_jump = 1			// number of jumps before needing to touch ground
