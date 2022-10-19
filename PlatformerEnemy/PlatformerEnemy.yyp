@@ -90,11 +90,11 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"roomId":{"name":"rm_game10","path":"rooms/rm_game10/rm_game10.yy",},},
     {"roomId":{"name":"rm_game6","path":"rooms/rm_game6/rm_game6.yy",},},
     {"roomId":{"name":"rm_game12","path":"rooms/rm_game12/rm_game12.yy",},},
-    {"roomId":{"name":"rm_game10","path":"rooms/rm_game10/rm_game10.yy",},},
     {"roomId":{"name":"rm_game4","path":"rooms/rm_game4/rm_game4.yy",},},
-    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_game3","path":"rooms/rm_game3/rm_game3.yy",},},
     {"roomId":{"name":"rm_game7","path":"rooms/rm_game7/rm_game7.yy",},},
     {"roomId":{"name":"rm_game5","path":"rooms/rm_game5/rm_game5.yy",},},

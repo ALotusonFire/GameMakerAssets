@@ -6,7 +6,7 @@
     "name": "spr_lightblock",
     "path": "sprites/spr_lightblock/spr_lightblock.yy",
   },
-  "solid": false,
+  "solid": true,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
